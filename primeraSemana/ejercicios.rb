@@ -141,12 +141,143 @@
 # array = [1, "Pedro", true, false, "Juan"]
 # puts array.pop(2)
 
-print "Primer número "
-num1 = gets.chomp.to_i
+# print "Primer número "
+# num1 = gets.chomp.to_i
+#
+# print "Segundo Intento "
+# num2 = gets.chomp.to_i
+#
+# (num1...num2).each do |i|
+#   puts i
+# end
+#
+# print "Ingresa un numero"
+# num = gets.chomp.to_i
+#
+# puts "Sacala sombrilla" if num > 2 && num < 5
 
-print "Segundo Intento "
-num2 = gets.chomp.to_i
+# num = 15
+#
+# if num >= 10 && num <= 20
+#   puts "El número esta entre 10 y 20"
+# end
 
-(num1...num2).each do |i|
-  puts i
+
+# 14.times do |i|
+#   puts "#{"*"*(i+1)}"
+# end
+
+# star_string = "*"
+#
+# 10.times do
+#     puts star_string
+#     star_string = star_string + "*"
+# end
+
+# print "Ingresa un número: "
+# num = gets.chomp.to_i
+#
+# while num < 10
+#   puts "El número es menor a 10"
+#
+#   print "Ingresa un número: "
+#   num = gets.chomp.to_i
+# end
+
+#
+# while true
+#   puts "Hola mundo"
+# end
+
+# i = 0
+# while i < 850
+#   puts "#{i} Hola mundo"
+#   i = i + 1
+# end
+
+
+# puts numRandom = rand(10)
+#
+# print "Adivina el número que estoy pensando"
+# numUser = gets.chomp.to_i
+#
+# while numRandom != numUser
+#   print "Lo sentimos, Intenta nuevamente: "
+#   numUser = gets.chomp.to_i
+# end
+#   puts "Adivinaste! El número era #{numRandom}"
+
+
+# print "Ingresa un número: "
+# num = gets.chomp.to_i
+#
+# stair = "#"
+#
+# num.times do
+#   puts stair
+#   stair = stair + "#"
+# end
+
+# 14.times do |i|
+#   puts "#{" "*(4-i-1)}#{"*"*(i+1)}"
+# end
+
+
+# 10.times do |i|
+#   (i +1).times do |c|
+#     print "*"
+#   end
+#     print "\n"
+# end
+
+
+# print "Ingresa los nombres: "
+# names = ["luis", "alejandro", "david"]
+#
+# count = 0
+# names.each do |i|
+#   puts "El nombre en la posición #{count + 1} es #{i}"
+# count += 1
+# end
+
+
+
+# Adivina el número
+# Crea un programa que "piense" un número (genera el número de forma aleatoria) del uno al diez y le pide al usuario un número. Si son iguales imprime un mensaje "Ganaste!", de lo contrario imprime "Perdiste!".
+
+
+
+
+# print "Dime un número"
+#
+# num = gets.chomp.to_i
+# puts numRandom = rand(1..10)
+#
+# while num == numRandom
+#   puts "Ganaste"
+#
+#   print "Dime un número"
+#   num = gets.chomp.to_i
+# end
+
+
+# RESULTADO EJERCICIO
+# print "Ingresa el número de personas: "
+# num = gets.chomp.to_i
+#
+# names = []
+# num.times do |i|
+#   print "Persona #{i+1}: "
+#   names << gets.chomp
+# end
+#
+# puts
+# names.each_with_index do |name, i|
+#   puts "El nombre en la posición #{i} es #{name}"
+# end
+
+
+
+15.times do
+  puts "Make it real"
 end

@@ -58,7 +58,7 @@
 
 # Pero estar convirtiendo los tipos a cadena de texto con .to_s es muy engorroso. Ruby nos ofrece una mejor solución, la interpolación:
 
-INTERPOLACIÓN
+# INTERPOLACIÓN
 # La sintaxis de la interpolación es #{}. Ruby evalúa lo que esté entre los corchetes y lo convierte en cadena de texto.
 # Puedes usar #{} las veces que quieras dentro de una cadena.
 
@@ -102,14 +102,25 @@ peso / altura^2
 
 Escribe un programa que le pida al usuario su peso y su altura para calcular su BMI. Por ejemplo:
 
-```
-$ ruby bmi.rb
-Ingresa tu peso: 65
-Ingresa tu altura: 1.8
 
-Tu BMI es 20.061728395061728
-```
 
-Como bono intenta redondear el número a un decimal.
 
-[Ver solución](solutions/bmi.rb)
+
+
+
+
+
+
+
+#
+# ```
+# $ ruby bmi.rb
+# Ingresa tu peso: 65
+# Ingresa tu altura: 1.8
+#
+# Tu BMI es 20.061728395061728
+# ```
+#
+# Como bono intenta redondear el número a un decimal.
+#
+# [Ver solución](solutions/bmi.rb)

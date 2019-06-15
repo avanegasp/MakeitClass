@@ -1,0 +1,14 @@
+#ejercicio
+
+#el proyecto se llama 'proyecto-1'
+
+# primera ruta / y que diga "Hi welcome to Pets App"
+
+# segunda ruta /:dog, que tenga el nombre del perro
+# como variable y tenga imagen estática
+
+# tercera ruta /:superheroe, que tenga el nombre del supeheroe
+# como variable y tenga imagen estática y diga este "Este es mi
+superheroe favorito", seteado el nombre
+
+# setear el nombre del perro
